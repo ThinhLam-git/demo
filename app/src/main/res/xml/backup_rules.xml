@@ -6,9 +6,7 @@
    See https://developer.android.com/about/versions/12/backup-restore
 -->
 <full-backup-content>
-    <!-- Sao lưu thư mục "databases" -->
     <include domain="database" path="."/>
 
-    <!-- Loại trừ thư mục "cache" -->
     <exclude domain="file" path=""/>
 </full-backup-content>
